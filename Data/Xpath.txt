@@ -1,0 +1,45 @@
+[email]
+port = 465
+login_email = 609200751@qq.com
+login_password = mgvdekrrtlgjbehj
+smtp = smtp.qq.com
+subject = B2C-UAT Interface Result
+mailbody = 附件为B2C-UAT自动化测试报告
+Recipient = chloe@wemart.cn
+
+[Login]
+user = //*[@id="validation-username"]
+password = //*[@id="validation-password"]
+sign = //*[@id="signIn"]
+title = //*[@id="wm-main"]/div[1]/div/p
+
+[Logout]
+account = //*[@id="wm-main-view"]/div[1]/div[2]/div[4]/div/div[1]/i
+logout = //*[@id="wm-main-view"]/div[1]/div[2]/div[4]/div/div[2]/div/div/ul/li[2]
+
+[Goods]
+addGoods = //*[@id="wm-main"]/div/div[1]/div/a/button/div/span
+goodsName = //*[@id="goods_name"]
+goodsEditor = //*[@id="wm-goods-editor"]/div[2]/div
+goodsPic = //*[@id="upload-ceaba538-2675-b287-7abd-606ebc688d50-btn"]
+goodsSkuBtn = //*[@id="wm-goods-form-sku-button"]/a/span
+skuName = //*[@id="wm-goods-form-sku-name-"]/div[2]/div/input
+skuValue =//*[@id="wm-goods-form-sku-value-box-"]/li/input
+skuPic = //*[@id="upload-56ce9a66-5583-c211-fc5d-ad6eb1c4efc0"]
+skuPrice = //*[@id="wm-goods-form-sku-set-box"]/table/tbody/tr/td[4]/div/input
+skuStock = //*[@id="wm-goods-form-sku-set-box"]/table/tbody/tr/td[5]/div/input
+skuNum = //*[@id="wm-goods-form-sku-set-box"]/table/tbody/tr/td[6]/div/input
+goodsGroup = //*[@id="wm-goods-form-group-box"]/ul/li[div[2]="测试"]/div[1]
+goodCategory = //*[@id="js-wm-goods-category-select"]/div/ul[li="服饰配件"]
+
+
+
+
+
+
+
+
+
+
+
+
